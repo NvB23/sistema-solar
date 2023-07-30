@@ -1,12 +1,16 @@
 @media(max-width: 1080px) {
-    /* .imagem-principal {
-        max-width: 520px;
-        max-height: 261px;
-    } */
+    .imagem-principal {
+        width: 100%;
+    } 
 
     .img-planeta-selecionado {
         max-width: 382px;
         max-height: 382px;
+    }
+
+    .tudo {
+        max-width: 420px;
+        margin-left: 13px;
     }
 }
 
@@ -163,3 +167,11 @@ hr {
 [aria-label]:hover::after {
     display: block;
 }
+
+/* footer {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-top: 2px solid white;
+    padding: 10px;
+} */
